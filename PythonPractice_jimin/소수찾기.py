@@ -1,5 +1,5 @@
 n = int(input())
-N = list[map(int, input().split())]
+N = list(map(int, input().split()))
 cnt = 0
 for num in N:
     if num <= 1:
