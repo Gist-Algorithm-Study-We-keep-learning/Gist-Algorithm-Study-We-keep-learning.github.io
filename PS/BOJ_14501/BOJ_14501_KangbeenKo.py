@@ -17,7 +17,7 @@ work = []
 pmax = [0] * n
 
 for _ in range(n):
-		work.append(list(map(int, input().split())))
+    work.append(list(map(int, input().split())))
     # print(work)
 for i in range(n-1, -1, -1): #뒤에서부터 앞으로 이동
     day = work[i][0]
