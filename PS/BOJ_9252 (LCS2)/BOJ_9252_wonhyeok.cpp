@@ -25,6 +25,21 @@ int main(void){
 			}
 		}
 	}
+	int i = len1, j = len2;
+	while(i>0 && j>0){
+		if(lut[i][j] == lut[i-1][j])
+			i--;
+		else if(lut[i][j] == lut[i][j-1])
+			j--;
+		else{
+			answer.push_back(s1[i-1]);
+			i--;
+			j--;
+		}
+	}
 	
 	printf("%d\n",lut[len1][len2]);
+	
+	for(int i=answer.size()-1; i>=0; i--)
+		printf("%c", answer[i]);
 }
