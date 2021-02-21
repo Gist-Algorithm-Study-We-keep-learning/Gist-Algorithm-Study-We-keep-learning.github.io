@@ -39,6 +39,7 @@ class Stack:
     def __init__(self):
         self.len = 0
         self.list = []
+        
     def push(self, item):
         self.list.append(item)
         self.len += 1
