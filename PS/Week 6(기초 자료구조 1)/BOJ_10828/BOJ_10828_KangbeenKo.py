@@ -39,7 +39,7 @@ class Stack:
     def __init__(self):
         self.len = 0
         self.list = []
-        
+
     def push(self, item):
         self.list.append(item)
         self.len += 1
@@ -81,3 +81,5 @@ for _ in range(n):
 
 for a in answer:
     print(a)
+
+# 성공 (메모리: 29028 KB, 시간: 468 ms)
