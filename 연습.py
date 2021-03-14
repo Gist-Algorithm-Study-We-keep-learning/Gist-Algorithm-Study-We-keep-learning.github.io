@@ -1,3 +1,4 @@
-n = 10
-lst = [3 + i for i in range(n)]
-print(lst)
+
+m_lst = [0] * 8
+
+print(m_lst)
